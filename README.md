@@ -9,7 +9,7 @@ function allmoji(vendor);
 ```
 Returns all of the supplied vendors emojis as a map. Keys can be shortnames or codepoints.
 
-### Usage:
+### Example:
 ```js
 // Require allmoji
 let allmoji = require("./allmoji");
@@ -26,3 +26,5 @@ emojis = allmoji("twitter");
 // Also getting an emoji by key:
 console.log(emojis["sandwich"]);
 ```
+### Output:
+![Example Output](https://github.com/Morrantho/allmoji2/blob/master/example.png)
