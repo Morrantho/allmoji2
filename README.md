@@ -1,6 +1,6 @@
 # allmoji2
 
-## Every emoji. From every vendor. Ever. All in one place.
+## The world's largest emoji library. Every emoji. From every vendor. Ever. All in one place.
 
 ### API / Library:
 
