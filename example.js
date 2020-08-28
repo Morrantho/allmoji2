@@ -1,7 +1,8 @@
 let allmoji = require("./allmoji");
+let emojis = allmoji("microsoft");
 
-console.log(allmoji.get("fire")); // by shortname
-allmoji.setvendor("apple"); // by vendor
-console.log(allmoji.get("1F441")); // or hex
-allmoji.setvendor("twitter");
-console.log(allmoji.get("burrito"));
+console.log(emojis["1f60b"]);
+emojis = allmoji("apple");
+console.log(emojis.egg);
+emojis = allmoji("twitter");
+console.log(emojis["sandwich"]);
